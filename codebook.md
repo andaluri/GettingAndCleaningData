@@ -3,7 +3,7 @@
 Field | Type  | Description
 ----- | ----- | --------
 activity | string | Activity performed by subject. One of WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
-subject | integer | Subject Id of the person who performed the activity.
+subject | integer | Subject Id of the person who performed the activity. A value between 1 and 30.
 tBodyAccMagMean | numeric |  See Note below.
 tBodyAccMagStdDev | numeric | See Note below.
 tGravityAccMagMean | numeric | See Note below.
