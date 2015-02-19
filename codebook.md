@@ -6,20 +6,27 @@ activity | string | Activity performed by subject. One of WALKING, WALKING_UPSTA
 subject | integer | Subject Id of the person who performed the activity.
 tBodyAccMagMean | numeric |  See Note below.
 tBodyAccMagStdDev | numeric | See Note below.
-tGravityAccMagMean | | See Note below.
-tGravityAccMagStdDev | | See Note below.
-tBodyAccJerkMagMean | |See Note below.
-tBodyAccJerkMagStdDev | |See Note below.
-tBodyGyroMagMean | |See Note below.
-tBodyGyroMagStdDev | |See Note below.
-tBodyGyroJerkMagMean | | See Note below.
-tBodyGyroJerkMagStdDev | |See Note below.
-fBodyAccMagMean | |See Note below.
-fBodyAccMagStdDev | |See Note below.
-fBodyBodyAccJerkMagMean | |See Note below.
-fBodyBodyAccJerkMagStdDev | |See Note below.
-fBodyBodyGyroMagMean | |See Note below.
-fBodyBodyGyroMagStdDev | |See Note below.
-fBodyBodyGyroJerkMagMean | |See Note below.
-fBodyBodyGyroJerkMagStdDev | |See Note below.
+tGravityAccMagMean | numeric | See Note below.
+tGravityAccMagStdDev | numeric | See Note below.
+tBodyAccJerkMagMean | numeric |See Note below.
+tBodyAccJerkMagStdDev |numeric |See Note below.
+tBodyGyroMagMean | numeric|See Note below.
+tBodyGyroMagStdDev | numeric|See Note below.
+tBodyGyroJerkMagMean | numeric| See Note below.
+tBodyGyroJerkMagStdDev | numeric|See Note below.
+fBodyAccMagMean |numeric |See Note below.
+fBodyAccMagStdDev | numeric|See Note below.
+fBodyBodyAccJerkMagMean | numeric|See Note below.
+fBodyBodyAccJerkMagStdDev | numeric|See Note below.
+fBodyBodyGyroMagMean | numeric|See Note below.
+fBodyBodyGyroMagStdDev | numeric|See Note below.
+fBodyBodyGyroJerkMagMean | numeric|See Note below.
+fBodyBodyGyroJerkMagStdDev | numeric|See Note below.
+
+Note: 
+
+Field names starting with t (e.g. tBodyAccMagMean) are time domain samples of original dataset that were summarised (using mean) by activity and subject.
+
+Field names starting with f (e.g. fBodyAccMagMean) are frequency domain samples of original dataset that were summarised (using mean) by activity and subject.
+
 
